@@ -1,11 +1,13 @@
 import './App.css';
 import Canvas from './canvas';
-import Move from './Video'
+// import Move from './Video'
+import Peer from './Peer'
 function App() {
   return (
     <div className="App">
-      <Canvas/>
-      <Move/>
+      <Canvas />
+      {/* <Move/> */}
+      <Peer />
     </div>
   );
 }

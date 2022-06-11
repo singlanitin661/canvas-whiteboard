@@ -1,10 +1,13 @@
+.Video{
+    color: white;
+}
 .move1{
     position: absolute;
-    top : 49px;
+    top : 5px;
     right: 1px;
-    background-color: gray;
-    width: 12%;
-    height: 15%;
+    background-color: black;
+    height: 120px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,11 +16,11 @@
 }
 .move2{
     position: absolute;
-    top : 149px;
+    top : 150px;
     right: 1px;
-    background-color: gray;
-    width: 12%;
-    height: 15%;
+    background-color: black;
+    height: 120px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;

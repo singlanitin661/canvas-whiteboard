@@ -1,4 +1,6 @@
-
+.CanvasRoot{
+    margin-bottom: -650px;
+}
 #circularcursor {
     background-color: transparent;
     border:1px solid black;    
@@ -26,6 +28,8 @@
 
 .btn-width {
     min-width: 50px;
+    background-color: #2d2d2d;
+    border: none;
 }
 /* .pencil{
     /* background-color: black;

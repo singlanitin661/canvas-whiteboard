@@ -1,10 +1,9 @@
 import React, { useRef, useState, useEffect } from "react";
 import "./canvas.css";
-import * as eraser from "./eraser.png";
 
 export default function Canvas() {
   const [isDrawing, setIsDrawing] = useState(false);
-  const [color, setColor] = useState("white");
+  const [color, setColor] = useState("#2d2d2d");
   const [size, setSize] = useState("3");
   const canvasRef = useRef(null);
   const ctx = useRef(null);
@@ -99,6 +98,7 @@ export default function Canvas() {
 
   return (
     <>
+    <div className="CanvasRoot">
       <div className="canvas-btn">
         <button onClick={getPen} className="btn-width">
         <img src={require('./pencil.png')} className="pencil" />
@@ -142,6 +142,7 @@ export default function Canvas() {
         onMouseMove={draw}
         ref={canvasRef}
       />
+      </div>
     </>
   );
 }
