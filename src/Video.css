@@ -1,0 +1,27 @@
+.move1{
+    position: absolute;
+    top : 49px;
+    right: 1px;
+    background-color: gray;
+    width: 12%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    z-index : 9;
+}
+.move2{
+    position: absolute;
+    top : 149px;
+    right: 1px;
+    background-color: gray;
+    width: 12%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    z-index : 9;
+}
+
